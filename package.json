@@ -1,0 +1,27 @@
+{
+  "name": "autoria",
+  "version": "1.0.0",
+  "description": "scrap info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./js/index.js",
+    "prettier": "npx prettiter --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "SeregaWEB",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.14",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint": "^8.2.0",
+    "eslint-plugin-react": "^7.27.0",
+    "prettier": "2.4.1"
+  }
+}
